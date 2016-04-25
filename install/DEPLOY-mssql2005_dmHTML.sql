@@ -1,0 +1,23 @@
+CREATE TABLE dmHTML(
+reviewDate datetime NULL DEFAULT NULL ,
+datetimelastupdated datetime NOT NULL DEFAULT {ts '2214-04-16 16:59:52'} ,
+lockedBy nvarchar(250) NULL DEFAULT NULL ,
+lastupdatedby nvarchar(250) NOT NULL DEFAULT '' ,
+createdby nvarchar(250) NOT NULL DEFAULT '' ,
+datetimecreated datetime NOT NULL DEFAULT {ts '2214-04-16 16:59:52'} ,
+catHTML nvarchar(250) NULL DEFAULT NULL ,
+locked bit NOT NULL DEFAULT 0 ,
+status nvarchar(250) NOT NULL DEFAULT 'draft' ,
+metaKeywords nvarchar(MAX) NULL ,
+seoTitle nvarchar(250) NULL DEFAULT NULL ,
+Teaser nvarchar(MAX) NULL ,
+displayMethod nvarchar(250) NOT NULL DEFAULT 'displayPageStandard' ,
+extendedmetadata nvarchar(MAX) NULL ,
+ObjectID nvarchar(50) NOT NULL DEFAULT '' ,
+label nvarchar(250) NULL DEFAULT NULL ,
+versionID nvarchar(50) NULL DEFAULT NULL ,
+Title nvarchar(250) NULL DEFAULT NULL ,
+teaserImage nvarchar(50) NULL DEFAULT NULL ,
+ownedby nvarchar(250) NULL DEFAULT NULL ,
+Body nvarchar(MAX) NULL 
+);

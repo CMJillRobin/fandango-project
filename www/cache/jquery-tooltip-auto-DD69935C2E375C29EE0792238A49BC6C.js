@@ -1,0 +1,2 @@
+
+jQuery(function(){$j('a[title],div[title],span[title],area[title]').not('.fancybox,.nojqtooltip,.fc-tooltip,.fc-richtooltip').tooltip();$j('.fc-tooltip').tooltip();$j('.fc-richtooltip').each(function(){var $this=$j(this);var position=$this.data("tooltip-position")||"";var width=$this.data("tooltip-width")||0;$this.tooltipster({theme:".tooltipster-light",position:position,fixedWidth:width,delay:0,speed:200});});});
